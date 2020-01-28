@@ -1,0 +1,80 @@
+/* * { background-color: rgba(255,0,0,.2); }
+* * { background-color: rgba(0,255,0,.2); }
+* * * { background-color: rgba(0,0,255,.2); }
+* * * * { background-color: rgba(255,0,255,.2); }
+* * * * * { background-color: rgba(0,255,255,.2); }
+* * * * * * { background-color: rgba(255,255,0,.2); }
+* * * * * * * { background-color: rgba(255,0,0,.2); }
+* * * * * * * * { background-color: rgba(0,255,0,.2); }
+* * * * * * * * * { background-color: rgba(0,0,255,.2); } */
+.stage {
+  background-image: url('Image/blue-universe-956981.jpg');
+  background-size: cover;
+  height:100vh;
+}
+
+input,select {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.stage_headline {
+  color:white;
+  margin-top: 50px;
+
+}
+
+.stage_sub-headline{
+  color:orange;
+}
+
+.stage_text{
+  color:white;
+}
+
+.fas {
+  float: left;
+  font-size: 40px;
+  margin-right: 15px;
+  margin-top: 5px;
+  color: orange;
+}
+
+.stage_sub-headline--white {
+  margin-top: 60px;
+}
+.stage_text {
+  margin-left: 200px;
+}
+
+.stage_form_text--left {
+  width: 47%;
+}
+
+.stage_form_text--right{
+  width: 47%;
+  float:right;
+
+}
+
+.custom {
+  float:right;
+  background-color: orange;
+  border:none;
+  color: white;
+  font-size: auto;
+  padding: 12px;
+  margin-top: 12px;}
+
+  .transparent {
+    float:auto;
+    background-color: #090731;
+    opacity: 0.7;
+    border:none;
+    color: white;
+    font-size: auto;
+    padding: 12px;
+    margin-left:55px;
+  }
+
+  
