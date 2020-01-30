@@ -77,4 +77,25 @@ input,select {
     margin-left:55px;
   }
 
-  
+  .flexcontainer-1 {
+    display: flex;
+  }
+
+
+
+
+  .fas fa-tag {
+    flex-basis:1;
+
+
+
+  }
+
+  .text {
+    flex-basis:1;
+  }
+
+
+  .subtext{
+    background-color: white;
+  }
