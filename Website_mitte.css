@@ -1,0 +1,203 @@
+body {
+  background-color: lightgrey;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%
+}
+
+.Vlexcontainer {
+  display: flex;
+  max-width: 100vw;
+  margin: 40px 0px 0px 40px;
+  justify-content: space-around;
+}
+
+.Vlexcontainer--1 {
+  display: flex;
+  max-width: 100vw;
+  margin: 0px 0px 40px 40px;
+  justify-content: space-around;
+}
+
+.Bild--1 {
+  flex: 1;
+  flex-basis: 5%;
+  height: 20vh;
+  margin: 0px 10px 0px 0px;
+}
+
+.Bild--2 {
+  flex: 1;
+  flex-basis: 5%;
+  height: 20vh;
+  margin: 0px 10px 0px 0px;
+}
+
+.Bild--3 {
+  flex: 1;
+  flex-basis: 5%;
+  height: 20vh;
+  margin: 0px 10px 0px 0px;
+}
+
+.Text--1 {
+  flex: 1;
+  display: grid;
+  position: relative;
+  grid-template-columns: 50px 50px auto;
+  grid-template-rows: auto;
+  background-color: white;
+  flex-basis: 5%;
+  height: 50vh;
+  margin: 0px 10px 0px 0px;
+}
+
+.Text--2 {
+  flex: 1;
+  display: grid;
+  position: relative;
+  grid-template-columns: 50px 50px auto;
+  grid-template-rows: auto;
+  background-color: white;
+  flex-basis: 5%;
+  height: 50vh;
+  margin: 0px 10px 0px 0px;
+}
+
+.Text--3 {
+  flex: 1;
+  display: grid;
+  position: relative;
+  grid-template-columns: 50px 50px auto;
+  grid-template-rows: auto;
+  background-color: white;
+  flex-basis: 5%;
+  height: 50vh;
+  margin: 0px 10px 0px 0px;
+}
+
+.icon {
+  grid-column: 1;
+  grid-row: 2;
+  padding-left: 20px;
+  margin-top: -50px;
+  color: blue;
+}
+
+/* flex:2; */
+/* padding-left:20px;
+        padding-top: 20px; */
+.thing {
+  grid-column: 2/5;
+  padding-right: 0px;
+  margin-top: -50px;
+}
+
+/* flex:2; */
+/* padding-top: 20px; */
+.heading {
+  grid-column: 1/5;
+  grid-row: 1;
+  padding: 5px 5px 0px 20px;
+}
+
+.end--1 {
+  grid-column: 1/4;
+  padding-left: 20px;
+  margin-top: -50px;
+}
+
+.end--2 {
+  grid-column: 4;
+  justify-self: end;
+  padding-right: 20px;
+  margin-top: -50px;
+}
+
+.button_1 {
+  background-color: orange;
+  color: white;
+  font-size: 25px;
+  padding: 5px 10px;
+  border: none;
+  position: absolute;
+  left: 50%;
+  top: 105%;
+  transform: translate(-50%, -105%);
+}
+
+.hr1 {
+  overflow: hidden;
+  margin-left: -50px;
+  display: block;
+}
+
+.hr2 {
+  overflow: hidden;
+  margin-left: -20px;
+  margin-right: -5px;
+}
+
+.Überschrift {
+  text-align: center;
+}
+
+.far {
+  color: grey;
+}
+
+.button_1:hover {
+  box-shadow: 0 5px 5px;
+}
+
+.Part3 {
+  display: flex;
+  justify-content:space-around;
+  padding:60px 60px 0px 60px;
+}
+
+.Satisfaction {
+background-image: url('/Users/carlotta/Desktop/Projekte/Website Coding School/Website-Klon/blue-universe-956981.jpg')!important;
+background-size: cover;
+position:relative;
+}
+
+.Part3--message{
+ color: white;
+ flex:4;
+}
+
+
+.Part3--checkmark{
+  flex:1;
+  color: orange;
+  font-size: 30px;
+}
+
+.button_2{
+  margin-top:60px;
+  padding-bottom: 80px;
+  display: flex;
+justify-content: center;}
+
+.custom1 {
+ background-color:orange;
+ border:none;
+}
+
+.whitepart{
+  background-color: white;
+}
+
+.bluepart {
+  background-color: lightblue;
+  position:absolute;
+  top: 95%;
+  left: 25%;
+  /* transform: translate(-90%, 50%); */
+  width:50%;
+  text-align: center;
+}
